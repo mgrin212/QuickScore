@@ -24,6 +24,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 render(() => <App />, document.getElementById("root") as HTMLElement);
